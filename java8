@@ -1,0 +1,12 @@
+## javase 8 源码api地址
+https://docs.oracle.com/javase/8/docs/api/overview-summary.html
+
+1.java.beans 包
+    AppletInitializer 
+      void activate(Applet newApplet)
+      void initialize(Applet newAppletBean, BeanContext bCtxt)
+    BeanDescriptor ## BeanDescriptor提供有关“bean”的全局信息，包括其Java类，displayName等。
+      BeanDescriptor(Class<?> beanClass)
+      BeanDescriptor(Class<?> beanClass, Class<?> customizerClass)
+      
+  
